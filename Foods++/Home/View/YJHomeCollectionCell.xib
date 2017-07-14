@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.89999997615814209" contentMode="center" restorationIdentifier="HomeCell" id="EwR-Kz-XQP" customClass="YJHomeCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZFn-rI-FUL">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="8T7-mR-ELv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbn-3y-Qao">
+                        <rect key="frame" x="8" y="128" width="144" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="shopCell" text="$ 99.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sY4-5T-Apn">
+                        <rect key="frame" x="8" y="154" width="144" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.73536488519999998" green="0.62283115929999999" blue="0.46131057330000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tbn-3y-Qao" firstAttribute="leading" secondItem="EwR-Kz-XQP" secondAttribute="leading" constant="8" id="75o-bs-6CL"/>
+                <constraint firstAttribute="trailing" secondItem="tbn-3y-Qao" secondAttribute="trailing" constant="8" id="BQO-fh-hQb"/>
+                <constraint firstAttribute="trailing" secondItem="ZFn-rI-FUL" secondAttribute="trailing" id="JnI-aA-SOt"/>
+                <constraint firstItem="ZFn-rI-FUL" firstAttribute="leading" secondItem="EwR-Kz-XQP" secondAttribute="leading" id="aw0-Ka-MDE"/>
+                <constraint firstItem="sY4-5T-Apn" firstAttribute="leading" secondItem="EwR-Kz-XQP" secondAttribute="leading" constant="8" id="rlg-2h-BnX"/>
+                <constraint firstAttribute="trailing" secondItem="sY4-5T-Apn" secondAttribute="trailing" constant="8" id="tfm-NQ-46F"/>
+                <constraint firstItem="tbn-3y-Qao" firstAttribute="top" secondItem="ZFn-rI-FUL" secondAttribute="bottom" constant="8" id="w2M-c3-By2"/>
+                <constraint firstItem="ZFn-rI-FUL" firstAttribute="top" secondItem="EwR-Kz-XQP" secondAttribute="top" id="z0R-8o-UOa"/>
+                <constraint firstItem="sY4-5T-Apn" firstAttribute="top" secondItem="tbn-3y-Qao" secondAttribute="bottom" constant="8" id="z5E-zw-wnk"/>
+            </constraints>
+            <size key="customSize" width="143" height="181"/>
+            <connections>
+                <outlet property="imageView" destination="ZFn-rI-FUL" id="VuW-Sj-Fph"/>
+                <outlet property="nameLabel" destination="tbn-3y-Qao" id="Yye-DQ-sIm"/>
+                <outlet property="priceLabel" destination="sY4-5T-Apn" id="RWR-Bn-1je"/>
+            </connections>
+            <point key="canvasLocation" x="-215" y="-110"/>
+        </collectionViewCell>
+    </objects>
+</document>

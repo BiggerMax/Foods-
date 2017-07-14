@@ -1,0 +1,7 @@
+platform:ios,'8.0'
+target 'Foods++' do
+pod 'SVProgressHUD'
+pod 'FMDB'
+pod 'Masonry'
+pod 'SDWebImage'
+end
