@@ -58,11 +58,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.view.backgroundColor = [UIColor whiteColor];
-	self.buyView.hidden = YES;
+	
 	[self setupNav];
 	[self loadData];
 	[self setupTableView];
 	[self setupToolBar];
+	self.buyView.hidden = YES;
 }
 -(void)loadData
 {

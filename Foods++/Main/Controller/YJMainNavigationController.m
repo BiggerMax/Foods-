@@ -7,7 +7,7 @@
 //
 
 #import "YJMainNavigationController.h"
-
+#import "YJSearchViewController.h"
 @interface YJMainNavigationController ()
 
 @end
@@ -41,5 +41,8 @@
 	button.size = button.currentBackgroundImage.size;
 	return [[UIBarButtonItem alloc] initWithCustomView:button];
 }
-
+-(void)search
+{
+	[self pushViewController:[YJSearchViewController new] animated:YES];
+}
 @end

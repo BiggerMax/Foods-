@@ -56,6 +56,14 @@
 		9DC638B01F18CA9C007C16E4 /* YJToolBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638AF1F18CA9C007C16E4 /* YJToolBarButton.m */; };
 		9DC638B31F18D022007C16E4 /* YJGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638B21F18D022007C16E4 /* YJGoodsDetailViewController.m */; };
 		9DC638B61F18D3CC007C16E4 /* YJBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638B51F18D3CC007C16E4 /* YJBuyView.m */; };
+		9DC638B91F18F306007C16E4 /* YJVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638B81F18F306007C16E4 /* YJVideoViewController.m */; };
+		9DC638BC1F18F31A007C16E4 /* YJListTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638BB1F18F31A007C16E4 /* YJListTopViewController.m */; };
+		9DC638BF1F18F32A007C16E4 /* YJKnowdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638BE1F18F32A007C16E4 /* YJKnowdgeViewController.m */; };
+		9DC638C21F18F33C007C16E4 /* YJMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638C11F18F33C007C16E4 /* YJMapViewController.m */; };
+		9DC638C51F18F34C007C16E4 /* YJActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638C41F18F34C007C16E4 /* YJActivityViewController.m */; };
+		9DC638C81F19034B007C16E4 /* YJVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638C71F19034B007C16E4 /* YJVideoModel.m */; };
+		9DC638CB1F190437007C16E4 /* YJVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638CA1F190437007C16E4 /* YJVideoCell.m */; };
+		9DC638CD1F1904B0007C16E4 /* YJVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638CC1F1904B0007C16E4 /* YJVideoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +148,21 @@
 		9DC638B21F18D022007C16E4 /* YJGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJGoodsDetailViewController.m; sourceTree = "<group>"; };
 		9DC638B41F18D3CC007C16E4 /* YJBuyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBuyView.h; sourceTree = "<group>"; };
 		9DC638B51F18D3CC007C16E4 /* YJBuyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBuyView.m; sourceTree = "<group>"; };
+		9DC638B71F18F306007C16E4 /* YJVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJVideoViewController.h; sourceTree = "<group>"; };
+		9DC638B81F18F306007C16E4 /* YJVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJVideoViewController.m; sourceTree = "<group>"; };
+		9DC638BA1F18F31A007C16E4 /* YJListTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJListTopViewController.h; sourceTree = "<group>"; };
+		9DC638BB1F18F31A007C16E4 /* YJListTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJListTopViewController.m; sourceTree = "<group>"; };
+		9DC638BD1F18F32A007C16E4 /* YJKnowdgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJKnowdgeViewController.h; sourceTree = "<group>"; };
+		9DC638BE1F18F32A007C16E4 /* YJKnowdgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJKnowdgeViewController.m; sourceTree = "<group>"; };
+		9DC638C01F18F33C007C16E4 /* YJMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMapViewController.h; sourceTree = "<group>"; };
+		9DC638C11F18F33C007C16E4 /* YJMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMapViewController.m; sourceTree = "<group>"; };
+		9DC638C31F18F34C007C16E4 /* YJActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJActivityViewController.h; sourceTree = "<group>"; };
+		9DC638C41F18F34C007C16E4 /* YJActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJActivityViewController.m; sourceTree = "<group>"; };
+		9DC638C61F19034B007C16E4 /* YJVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJVideoModel.h; sourceTree = "<group>"; };
+		9DC638C71F19034B007C16E4 /* YJVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJVideoModel.m; sourceTree = "<group>"; };
+		9DC638C91F190437007C16E4 /* YJVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJVideoCell.h; sourceTree = "<group>"; };
+		9DC638CA1F190437007C16E4 /* YJVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJVideoCell.m; sourceTree = "<group>"; };
+		9DC638CC1F1904B0007C16E4 /* YJVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJVideoCell.xib; sourceTree = "<group>"; };
 		CC16EC023ABE37FDA31DD3BE /* libPods-Foods++.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foods++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -477,6 +500,16 @@
 			children = (
 				9DC638831F186255007C16E4 /* YJSpecialViewController.h */,
 				9DC638841F186255007C16E4 /* YJSpecialViewController.m */,
+				9DC638B71F18F306007C16E4 /* YJVideoViewController.h */,
+				9DC638B81F18F306007C16E4 /* YJVideoViewController.m */,
+				9DC638BA1F18F31A007C16E4 /* YJListTopViewController.h */,
+				9DC638BB1F18F31A007C16E4 /* YJListTopViewController.m */,
+				9DC638BD1F18F32A007C16E4 /* YJKnowdgeViewController.h */,
+				9DC638BE1F18F32A007C16E4 /* YJKnowdgeViewController.m */,
+				9DC638C01F18F33C007C16E4 /* YJMapViewController.h */,
+				9DC638C11F18F33C007C16E4 /* YJMapViewController.m */,
+				9DC638C31F18F34C007C16E4 /* YJActivityViewController.h */,
+				9DC638C41F18F34C007C16E4 /* YJActivityViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -484,6 +517,8 @@
 		9DC638811F18624D007C16E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9DC638C61F19034B007C16E4 /* YJVideoModel.h */,
+				9DC638C71F19034B007C16E4 /* YJVideoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -491,6 +526,9 @@
 		9DC638821F18624D007C16E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DC638C91F190437007C16E4 /* YJVideoCell.h */,
+				9DC638CA1F190437007C16E4 /* YJVideoCell.m */,
+				9DC638CC1F1904B0007C16E4 /* YJVideoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -595,6 +633,7 @@
 				9DC638A71F18B3F4007C16E4 /* YJStoreDetailCell.xib in Resources */,
 				9DC6384E1F185C92007C16E4 /* map.json in Resources */,
 				9DC638511F185C92007C16E4 /* store_detailcell.json in Resources */,
+				9DC638CD1F1904B0007C16E4 /* YJVideoCell.xib in Resources */,
 				9DC6384A1F185C92007C16E4 /* Goods_detail.json in Resources */,
 				9DC6389C1F188DA9007C16E4 /* YJHomeCollectionCell.xib in Resources */,
 			);
@@ -656,9 +695,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC638761F1861EF007C16E4 /* YJHomeViewController.m in Sources */,
+				9DC638B91F18F306007C16E4 /* YJVideoViewController.m in Sources */,
+				9DC638C51F18F34C007C16E4 /* YJActivityViewController.m in Sources */,
 				9DC638731F186125007C16E4 /* YJMainTabBarController.m in Sources */,
 				9DC638631F185CAB007C16E4 /* DCPicScrollView.m in Sources */,
 				9DC638951F1873A4007C16E4 /* YJHomeTableViewCell.m in Sources */,
+				9DC638BF1F18F32A007C16E4 /* YJKnowdgeViewController.m in Sources */,
 				9DC638651F185CAB007C16E4 /* FastForwardView.m in Sources */,
 				9DC638671F185CAB007C16E4 /* WMLightView.m in Sources */,
 				9DC638101F185881007C16E4 /* AppDelegate.m in Sources */,
@@ -670,16 +712,20 @@
 				9DC638641F185CAB007C16E4 /* DCWebImageManager.m in Sources */,
 				9DC6388F1F186E77007C16E4 /* YJHomeCellModel.m in Sources */,
 				9DC638A21F18B185007C16E4 /* YJStoreDetailModel.m in Sources */,
+				9DC638C81F19034B007C16E4 /* YJVideoModel.m in Sources */,
 				9DC638691F185CAB007C16E4 /* WMPlayer.m in Sources */,
 				9DC6389F1F18AE7A007C16E4 /* YJStoreDetailController.m in Sources */,
+				9DC638C21F18F33C007C16E4 /* YJMapViewController.m in Sources */,
 				9DC6387C1F186212007C16E4 /* YJBasketViewController.m in Sources */,
 				9DC638791F186203007C16E4 /* YJMeViewController.m in Sources */,
 				9DC638881F186338007C16E4 /* YJTabBar.m in Sources */,
+				9DC638CB1F190437007C16E4 /* YJVideoCell.m in Sources */,
 				9DC638B61F18D3CC007C16E4 /* YJBuyView.m in Sources */,
 				9DC638921F18720E007C16E4 /* UIBarButtonItem+YJCategory.m in Sources */,
 				9DC638B31F18D022007C16E4 /* YJGoodsDetailViewController.m in Sources */,
 				9DC638701F186110007C16E4 /* YJMainNavigationController.m in Sources */,
 				9DC6386C1F185CE0007C16E4 /* YJGuideViewController.m in Sources */,
+				9DC638BC1F18F31A007C16E4 /* YJListTopViewController.m in Sources */,
 				9DC6380D1F185881007C16E4 /* main.m in Sources */,
 				9DC638AA1F18B7FC007C16E4 /* YJSearchViewController.m in Sources */,
 				9DC6387F1F186221007C16E4 /* YJStoreViewController.m in Sources */,

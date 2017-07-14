@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YJGuideViewController.h"
+#import "YJMainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-	self.window.rootViewController = [YJGuideViewController new];
+	self.window.rootViewController = [YJMainTabBarController new];
 	[self.window makeKeyAndVisible];
 	return YES;
 }
