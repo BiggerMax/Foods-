@@ -7,7 +7,8 @@
 //
 
 #import "YJMeViewController.h"
-
+#import "YJMyOrderCell.h"
+#import "YJMyAccountCell.h"
 #define HeadViewH 200
 #define HeadViewMinH 64
 
@@ -86,19 +87,26 @@
 	self.tableView.contentInset = UIEdgeInsetsMake(HeadViewH, 0, 0, 0);
 //	UIBlurEffect *blur = [UIBlurEffect effectWithStyle:(UIBlurEffectStyleLight)];
 //	UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
-//	effectView.frame = _topImageView.frame;
+//	effectView.frame = _topImageView.bounds;
 //	_effectView = effectView;
-//	[_topImageView bringSubviewToFront:_effectView];
-//	[self.tableView addSubview:_topImageView];
+//	[_topImageView addSubview:_effectView];
+//	effectView.alpha = 0.5;
 }
 -(void)setupSettingBtn
 {
-	
+	UIButton *settingBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+	[settingBtn setBackgroundImage:[UIImage imageNamed:@"mine_setting"] forState:UIControlStateNormal];
+	settingBtn.size = settingBtn.currentBackgroundImage.size;
+	[self.view addSubview:settingBtn];
+	[settingBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.top.mas_equalTo(self.view).offset(25);
+		make.left.mas_equalTo(self.view).offset(25);
+	}];
 }
 // tableView数据源代理方法啊
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	return 6;
+	return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -112,57 +120,58 @@
 		
 	}
 	
-//	if (indexPath.row == 0) {
-//		MeOrderCell *cell = [MeOrderCell cellWithTableView:tableView];
-//		[cell setSeparatorInset:UIEdgeInsetsMake(0, 0, 0, MAXFLOAT)];
-//		return cell;
-//	} else if (indexPath.row == 1) {
-//		MeAccountCell *cell = [MeAccountCell cellWithTableView:tableView];
-//		
-//		return cell;
-//	} else if (indexPath.row == 2) {
-//		
-//		cell.textLabel.text = @"我的收藏";
-//	}
-//	else if (indexPath.row == 3) {
-//		
-//		cell.textLabel.text = @"我的活动";
-//	}
-//	else if (indexPath.row == 4) {
-//		
-//		cell.textLabel.text = @"邀请好友";
-//	}
-//	else if (indexPath.row == 5) {
-//		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
-//		cell.textLabel.text = @"联系客服(9:00-18:00)";
-//		cell.detailTextLabel.text = @"4006-277-717";
-//		cell.accessoryType = UITableViewCellAccessoryNone;
-//	}
+	if (indexPath.row == 0) {
+		YJMyOrderCell *cell = [YJMyOrderCell cellWithTableView:tableView];
+		[cell setSeparatorInset:UIEdgeInsetsMake(0, 0, 0, MAXFLOAT)];
+		return cell;
+	} else if (indexPath.row == 1) {
+		YJMyAccountCell *cell = [YJMyAccountCell cellWithTableView:tableView];
+		
+		return cell;
+	} else if (indexPath.row == 2) {
+		
+		cell.textLabel.text = @"我的收藏";
+	}
+	else if (indexPath.row == 3) {
+		
+		cell.textLabel.text = @"我的活动";
+	}
+	else if (indexPath.row == 4) {
+		
+		cell.textLabel.text = @"邀请好友";
+	}
 	
 	
 	return cell;
 	
 	
 }
-//- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-//{
-//	
-//	// 向下的话 为负数
-//	CGFloat offY = scrollView.contentOffset.y;
-//	
-//	// 下拉超过照片的高度的时候
-//	if (offY < - HeadViewH)
-//	{
-//		CGRect frame = self.topImageView.frame;
-//		// 这里的思路就是改变 顶部的照片的 fram
-//		self.topImageView.frame = CGRectMake(0, offY, frame.size.width, -offY);
-//		        self.effectView.frame = self.topImageView.frame;
-//		// 对应调整毛玻璃的效果
-//		        self.effectView.alpha = 1 + (offY + HeadViewH) / ScreenHeight ;
-//	}
-//	
-//	
-//	
-//}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	if (indexPath.row == 0) {
+		return 150;
+	} else if (indexPath.row == 1) {
+		return 150;
+	} else  {
+		return 44;
+	}
+}
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+	
+	// 向下的话 为负数
+	CGFloat offY = scrollView.contentOffset.y;
+	
+	// 下拉超过照片的高度的时候
+	if (offY < - HeadViewH)
+	{
+		CGRect frame = self.topImageView.frame;
+		// 这里的思路就是改变 顶部的照片的 fram
+		self.topImageView.frame = CGRectMake(0, offY, frame.size.width, -offY);
+		  //      self.effectView.frame = self.topImageView.frame;
+		// 对应调整毛玻璃的效果
+		//        self.effectView.alpha = 1 + (offY + HeadViewH) / ScreenHeight ;
+	}
+}
 
 @end

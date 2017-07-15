@@ -91,6 +91,10 @@
 		9DC639141F1A0B5F007C16E4 /* YJBasketGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639131F1A0B5F007C16E4 /* YJBasketGoodsModel.m */; };
 		9DC639181F1A0C3C007C16E4 /* YJBasketGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639161F1A0C3C007C16E4 /* YJBasketGoodsCell.m */; };
 		9DC639191F1A0C3C007C16E4 /* YJBasketGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC639171F1A0C3C007C16E4 /* YJBasketGoodsCell.xib */; };
+		9DC6391B1F1A6C86007C16E4 /* wishbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DC6391A1F1A6C86007C16E4 /* wishbg.jpg */; };
+		9DC6391E1F1A7022007C16E4 /* YJMyOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC6391D1F1A7022007C16E4 /* YJMyOrderCell.m */; };
+		9DC639211F1A70A2007C16E4 /* YJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639201F1A70A2007C16E4 /* YJButton.m */; };
+		9DC639241F1A722B007C16E4 /* YJMyAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639231F1A722B007C16E4 /* YJMyAccountCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -236,6 +240,13 @@
 		9DC639151F1A0C3C007C16E4 /* YJBasketGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBasketGoodsCell.h; sourceTree = "<group>"; };
 		9DC639161F1A0C3C007C16E4 /* YJBasketGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBasketGoodsCell.m; sourceTree = "<group>"; };
 		9DC639171F1A0C3C007C16E4 /* YJBasketGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJBasketGoodsCell.xib; sourceTree = "<group>"; };
+		9DC6391A1F1A6C86007C16E4 /* wishbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wishbg.jpg; sourceTree = "<group>"; };
+		9DC6391C1F1A7022007C16E4 /* YJMyOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMyOrderCell.h; sourceTree = "<group>"; };
+		9DC6391D1F1A7022007C16E4 /* YJMyOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMyOrderCell.m; sourceTree = "<group>"; };
+		9DC6391F1F1A70A2007C16E4 /* YJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJButton.h; sourceTree = "<group>"; };
+		9DC639201F1A70A2007C16E4 /* YJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJButton.m; sourceTree = "<group>"; };
+		9DC639221F1A722B007C16E4 /* YJMyAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMyAccountCell.h; sourceTree = "<group>"; };
+		9DC639231F1A722B007C16E4 /* YJMyAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMyAccountCell.m; sourceTree = "<group>"; };
 		CC16EC023ABE37FDA31DD3BE /* libPods-Foods++.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foods++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -430,6 +441,8 @@
 				9DC638AF1F18CA9C007C16E4 /* YJToolBarButton.m */,
 				9DC638B41F18D3CC007C16E4 /* YJBuyView.h */,
 				9DC638B51F18D3CC007C16E4 /* YJBuyView.m */,
+				9DC6391F1F1A70A2007C16E4 /* YJButton.h */,
+				9DC639201F1A70A2007C16E4 /* YJButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -463,6 +476,10 @@
 		9DC638311F185BCD007C16E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DC6391C1F1A7022007C16E4 /* YJMyOrderCell.h */,
+				9DC6391D1F1A7022007C16E4 /* YJMyOrderCell.m */,
+				9DC639221F1A722B007C16E4 /* YJMyAccountCell.h */,
+				9DC639231F1A722B007C16E4 /* YJMyAccountCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -544,6 +561,7 @@
 		9DC6383B1F185C92007C16E4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9DC6391A1F1A6C86007C16E4 /* wishbg.jpg */,
 				9DC6383C1F185C92007C16E4 /* 1.png */,
 				9DC6383D1F185C92007C16E4 /* activity.json */,
 				9DC6383E1F185C92007C16E4 /* Goods_detail.json */,
@@ -735,6 +753,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC6391B1F1A6C86007C16E4 /* wishbg.jpg in Resources */,
 				9DC638CF1F19B05B007C16E4 /* Notices in Resources */,
 				9DC6384C1F185C92007C16E4 /* HomeShop.json in Resources */,
 				9DC638FD1F19E73A007C16E4 /* YJStoreCell.xib in Resources */,
@@ -828,6 +847,7 @@
 				9DC639031F19EDD6007C16E4 /* YJTitleIcon.m in Sources */,
 				9DC639111F1A00F4007C16E4 /* YJCollectionHeaderView.m in Sources */,
 				9DC638EA1F19D567007C16E4 /* YJMapModel.m in Sources */,
+				9DC6391E1F1A7022007C16E4 /* YJMyOrderCell.m in Sources */,
 				9DC639061F19FC9D007C16E4 /* YJStoreHomeController.m in Sources */,
 				9DC638731F186125007C16E4 /* YJMainTabBarController.m in Sources */,
 				9DC638631F185CAB007C16E4 /* DCPicScrollView.m in Sources */,
@@ -836,6 +856,7 @@
 				9DC638BF1F18F32A007C16E4 /* YJKnowdgeViewController.m in Sources */,
 				9DC638651F185CAB007C16E4 /* FastForwardView.m in Sources */,
 				9DC638671F185CAB007C16E4 /* WMLightView.m in Sources */,
+				9DC639241F1A722B007C16E4 /* YJMyAccountCell.m in Sources */,
 				9DC638101F185881007C16E4 /* AppDelegate.m in Sources */,
 				9DC638851F186255007C16E4 /* YJSpecialViewController.m in Sources */,
 				9DC638AD1F18C083007C16E4 /* YJGoodsViewController.m in Sources */,
@@ -857,6 +878,7 @@
 				9DC638DD1F19D2A8007C16E4 /* YJKnowledgeMoedel.m in Sources */,
 				9DC638F51F19E5E6007C16E4 /* TitleIconBtnModel.m in Sources */,
 				9DC638881F186338007C16E4 /* YJTabBar.m in Sources */,
+				9DC639211F1A70A2007C16E4 /* YJButton.m in Sources */,
 				9DC638CB1F190437007C16E4 /* YJVideoCell.m in Sources */,
 				9DC638B61F18D3CC007C16E4 /* YJBuyView.m in Sources */,
 				9DC638D21F19BF97007C16E4 /* YJListTopModel.m in Sources */,
