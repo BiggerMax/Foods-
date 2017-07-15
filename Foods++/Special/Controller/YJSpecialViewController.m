@@ -53,23 +53,20 @@ CGFloat const TitilesViewH = 44;
 	[self addChildViewController:v1];
 	YJListTopViewController *v2 = [[YJListTopViewController alloc] init];
 	v2.title = @"榜单";
-	v2.view.backgroundColor = RandomColor;
 	[self addChildViewController:v2];
 	YJKnowdgeViewController *v3 = [[YJKnowdgeViewController alloc] init];
 	v3.title = @"知识";
-	v3.view.backgroundColor = RandomColor;
+	
 	[self addChildViewController:v3];
 	YJKnowdgeViewController *v4 = [[YJKnowdgeViewController alloc] init];
 	v4.title = @"人文";
-	v4.view.backgroundColor = RandomColor;
-	[self addChildViewController:v4];
+		[self addChildViewController:v4];
 	YJMapViewController *v5 = [[YJMapViewController alloc] init];
 	v5.title = @"地图";
-	v5.view.backgroundColor = RandomColor;
+	
 	[self addChildViewController:v5];
 	YJActivityViewController *v6 = [[YJActivityViewController alloc] init];
 	v6.title = @"活动";
-	v6.view.backgroundColor = RandomColor;
 	[self addChildViewController:v6];
 	
 }

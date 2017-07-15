@@ -64,6 +64,33 @@
 		9DC638C81F19034B007C16E4 /* YJVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638C71F19034B007C16E4 /* YJVideoModel.m */; };
 		9DC638CB1F190437007C16E4 /* YJVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638CA1F190437007C16E4 /* YJVideoCell.m */; };
 		9DC638CD1F1904B0007C16E4 /* YJVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638CC1F1904B0007C16E4 /* YJVideoCell.xib */; };
+		9DC638CF1F19B05B007C16E4 /* Notices in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638CE1F19B05B007C16E4 /* Notices */; };
+		9DC638D21F19BF97007C16E4 /* YJListTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638D11F19BF97007C16E4 /* YJListTopModel.m */; };
+		9DC638D91F19C050007C16E4 /* YJListTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638D71F19C050007C16E4 /* YJListTopCell.m */; };
+		9DC638DA1F19C050007C16E4 /* YJListTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638D81F19C050007C16E4 /* YJListTopCell.xib */; };
+		9DC638DD1F19D2A8007C16E4 /* YJKnowledgeMoedel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638DC1F19D2A8007C16E4 /* YJKnowledgeMoedel.m */; };
+		9DC638E11F19D302007C16E4 /* YJKnowledgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638DF1F19D302007C16E4 /* YJKnowledgeCell.m */; };
+		9DC638E21F19D302007C16E4 /* YJKnowledgeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638E01F19D302007C16E4 /* YJKnowledgeCell.xib */; };
+		9DC638E61F19D54E007C16E4 /* YJMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638E41F19D54E007C16E4 /* YJMapCell.m */; };
+		9DC638E71F19D54E007C16E4 /* YJMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638E51F19D54E007C16E4 /* YJMapCell.xib */; };
+		9DC638EA1F19D567007C16E4 /* YJMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638E91F19D567007C16E4 /* YJMapModel.m */; };
+		9DC638ED1F19D6FA007C16E4 /* YJActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638EC1F19D6FA007C16E4 /* YJActivityModel.m */; };
+		9DC638F11F19D781007C16E4 /* YJActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638EF1F19D781007C16E4 /* YJActivityCell.m */; };
+		9DC638F21F19D781007C16E4 /* YJActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638F01F19D781007C16E4 /* YJActivityCell.xib */; };
+		9DC638F51F19E5E6007C16E4 /* TitleIconBtnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638F41F19E5E6007C16E4 /* TitleIconBtnModel.m */; };
+		9DC638F81F19E66E007C16E4 /* YJStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638F71F19E66E007C16E4 /* YJStoreModel.m */; };
+		9DC638FC1F19E73A007C16E4 /* YJStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638FA1F19E73A007C16E4 /* YJStoreCell.m */; };
+		9DC638FD1F19E73A007C16E4 /* YJStoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC638FB1F19E73A007C16E4 /* YJStoreCell.xib */; };
+		9DC639001F19E98A007C16E4 /* YJStoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC638FF1F19E98A007C16E4 /* YJStoreMenuView.m */; };
+		9DC639031F19EDD6007C16E4 /* YJTitleIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639021F19EDD6007C16E4 /* YJTitleIcon.m */; };
+		9DC639061F19FC9D007C16E4 /* YJStoreHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639051F19FC9D007C16E4 /* YJStoreHomeController.m */; };
+		9DC6390A1F19FE01007C16E4 /* YJStoreHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639081F19FE01007C16E4 /* YJStoreHomeCell.m */; };
+		9DC6390B1F19FE01007C16E4 /* YJStoreHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC639091F19FE01007C16E4 /* YJStoreHomeCell.xib */; };
+		9DC6390E1F19FF05007C16E4 /* YJStoreHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC6390D1F19FF05007C16E4 /* YJStoreHomeModel.m */; };
+		9DC639111F1A00F4007C16E4 /* YJCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639101F1A00F4007C16E4 /* YJCollectionHeaderView.m */; };
+		9DC639141F1A0B5F007C16E4 /* YJBasketGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639131F1A0B5F007C16E4 /* YJBasketGoodsModel.m */; };
+		9DC639181F1A0C3C007C16E4 /* YJBasketGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC639161F1A0C3C007C16E4 /* YJBasketGoodsCell.m */; };
+		9DC639191F1A0C3C007C16E4 /* YJBasketGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC639171F1A0C3C007C16E4 /* YJBasketGoodsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +190,52 @@
 		9DC638C91F190437007C16E4 /* YJVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJVideoCell.h; sourceTree = "<group>"; };
 		9DC638CA1F190437007C16E4 /* YJVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJVideoCell.m; sourceTree = "<group>"; };
 		9DC638CC1F1904B0007C16E4 /* YJVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJVideoCell.xib; sourceTree = "<group>"; };
+		9DC638CE1F19B05B007C16E4 /* Notices */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notices; sourceTree = "<group>"; };
+		9DC638D01F19BF97007C16E4 /* YJListTopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJListTopModel.h; sourceTree = "<group>"; };
+		9DC638D11F19BF97007C16E4 /* YJListTopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJListTopModel.m; sourceTree = "<group>"; };
+		9DC638D61F19C050007C16E4 /* YJListTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJListTopCell.h; sourceTree = "<group>"; };
+		9DC638D71F19C050007C16E4 /* YJListTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJListTopCell.m; sourceTree = "<group>"; };
+		9DC638D81F19C050007C16E4 /* YJListTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJListTopCell.xib; sourceTree = "<group>"; };
+		9DC638DB1F19D2A8007C16E4 /* YJKnowledgeMoedel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJKnowledgeMoedel.h; sourceTree = "<group>"; };
+		9DC638DC1F19D2A8007C16E4 /* YJKnowledgeMoedel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJKnowledgeMoedel.m; sourceTree = "<group>"; };
+		9DC638DE1F19D302007C16E4 /* YJKnowledgeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJKnowledgeCell.h; sourceTree = "<group>"; };
+		9DC638DF1F19D302007C16E4 /* YJKnowledgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJKnowledgeCell.m; sourceTree = "<group>"; };
+		9DC638E01F19D302007C16E4 /* YJKnowledgeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJKnowledgeCell.xib; sourceTree = "<group>"; };
+		9DC638E31F19D54E007C16E4 /* YJMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJMapCell.h; path = ../Model/YJMapCell.h; sourceTree = "<group>"; };
+		9DC638E41F19D54E007C16E4 /* YJMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJMapCell.m; path = ../Model/YJMapCell.m; sourceTree = "<group>"; };
+		9DC638E51F19D54E007C16E4 /* YJMapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJMapCell.xib; path = ../Model/YJMapCell.xib; sourceTree = "<group>"; };
+		9DC638E81F19D567007C16E4 /* YJMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMapModel.h; sourceTree = "<group>"; };
+		9DC638E91F19D567007C16E4 /* YJMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMapModel.m; sourceTree = "<group>"; };
+		9DC638EB1F19D6FA007C16E4 /* YJActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJActivityModel.h; sourceTree = "<group>"; };
+		9DC638EC1F19D6FA007C16E4 /* YJActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJActivityModel.m; sourceTree = "<group>"; };
+		9DC638EE1F19D781007C16E4 /* YJActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJActivityCell.h; sourceTree = "<group>"; };
+		9DC638EF1F19D781007C16E4 /* YJActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJActivityCell.m; sourceTree = "<group>"; };
+		9DC638F01F19D781007C16E4 /* YJActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJActivityCell.xib; sourceTree = "<group>"; };
+		9DC638F31F19E5E6007C16E4 /* TitleIconBtnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleIconBtnModel.h; sourceTree = "<group>"; };
+		9DC638F41F19E5E6007C16E4 /* TitleIconBtnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleIconBtnModel.m; sourceTree = "<group>"; };
+		9DC638F61F19E66E007C16E4 /* YJStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJStoreModel.h; sourceTree = "<group>"; };
+		9DC638F71F19E66E007C16E4 /* YJStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJStoreModel.m; sourceTree = "<group>"; };
+		9DC638F91F19E73A007C16E4 /* YJStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJStoreCell.h; sourceTree = "<group>"; };
+		9DC638FA1F19E73A007C16E4 /* YJStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJStoreCell.m; sourceTree = "<group>"; };
+		9DC638FB1F19E73A007C16E4 /* YJStoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJStoreCell.xib; sourceTree = "<group>"; };
+		9DC638FE1F19E98A007C16E4 /* YJStoreMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJStoreMenuView.h; sourceTree = "<group>"; };
+		9DC638FF1F19E98A007C16E4 /* YJStoreMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJStoreMenuView.m; sourceTree = "<group>"; };
+		9DC639011F19EDD6007C16E4 /* YJTitleIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTitleIcon.h; sourceTree = "<group>"; };
+		9DC639021F19EDD6007C16E4 /* YJTitleIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTitleIcon.m; sourceTree = "<group>"; };
+		9DC639041F19FC9D007C16E4 /* YJStoreHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJStoreHomeController.h; sourceTree = "<group>"; };
+		9DC639051F19FC9D007C16E4 /* YJStoreHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJStoreHomeController.m; sourceTree = "<group>"; };
+		9DC639071F19FE01007C16E4 /* YJStoreHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJStoreHomeCell.h; sourceTree = "<group>"; };
+		9DC639081F19FE01007C16E4 /* YJStoreHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJStoreHomeCell.m; sourceTree = "<group>"; };
+		9DC639091F19FE01007C16E4 /* YJStoreHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJStoreHomeCell.xib; sourceTree = "<group>"; };
+		9DC6390C1F19FF05007C16E4 /* YJStoreHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJStoreHomeModel.h; sourceTree = "<group>"; };
+		9DC6390D1F19FF05007C16E4 /* YJStoreHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJStoreHomeModel.m; sourceTree = "<group>"; };
+		9DC6390F1F1A00F4007C16E4 /* YJCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCollectionHeaderView.h; sourceTree = "<group>"; };
+		9DC639101F1A00F4007C16E4 /* YJCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJCollectionHeaderView.m; sourceTree = "<group>"; };
+		9DC639121F1A0B5F007C16E4 /* YJBasketGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBasketGoodsModel.h; sourceTree = "<group>"; };
+		9DC639131F1A0B5F007C16E4 /* YJBasketGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBasketGoodsModel.m; sourceTree = "<group>"; };
+		9DC639151F1A0C3C007C16E4 /* YJBasketGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBasketGoodsCell.h; sourceTree = "<group>"; };
+		9DC639161F1A0C3C007C16E4 /* YJBasketGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBasketGoodsCell.m; sourceTree = "<group>"; };
+		9DC639171F1A0C3C007C16E4 /* YJBasketGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJBasketGoodsCell.xib; sourceTree = "<group>"; };
 		CC16EC023ABE37FDA31DD3BE /* libPods-Foods++.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Foods++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -221,6 +294,7 @@
 				9DC6381C1F185881007C16E4 /* Info.plist */,
 				9DC6386D1F185D28007C16E4 /* PrefixHeader.pch */,
 				9DC6380B1F185881007C16E4 /* Supporting Files */,
+				9DC638CE1F19B05B007C16E4 /* Notices */,
 			);
 			path = "Foods++";
 			sourceTree = "<group>";
@@ -255,6 +329,8 @@
 		9DC638241F185BCD007C16E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9DC639121F1A0B5F007C16E4 /* YJBasketGoodsModel.h */,
+				9DC639131F1A0B5F007C16E4 /* YJBasketGoodsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +338,9 @@
 		9DC638251F185BCD007C16E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DC639151F1A0C3C007C16E4 /* YJBasketGoodsCell.h */,
+				9DC639161F1A0C3C007C16E4 /* YJBasketGoodsCell.m */,
+				9DC639171F1A0C3C007C16E4 /* YJBasketGoodsCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -412,13 +491,15 @@
 			isa = PBXGroup;
 			children = (
 				9DC6387D1F186221007C16E4 /* YJStoreViewController.h */,
-				9DC6389D1F18AE7A007C16E4 /* YJStoreDetailController.h */,
 				9DC6387E1F186221007C16E4 /* YJStoreViewController.m */,
+				9DC6389D1F18AE7A007C16E4 /* YJStoreDetailController.h */,
 				9DC6389E1F18AE7A007C16E4 /* YJStoreDetailController.m */,
 				9DC638AB1F18C082007C16E4 /* YJGoodsViewController.h */,
 				9DC638AC1F18C082007C16E4 /* YJGoodsViewController.m */,
 				9DC638B11F18D022007C16E4 /* YJGoodsDetailViewController.h */,
 				9DC638B21F18D022007C16E4 /* YJGoodsDetailViewController.m */,
+				9DC639041F19FC9D007C16E4 /* YJStoreHomeController.h */,
+				9DC639051F19FC9D007C16E4 /* YJStoreHomeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -428,6 +509,12 @@
 			children = (
 				9DC638A01F18B185007C16E4 /* YJStoreDetailModel.h */,
 				9DC638A11F18B185007C16E4 /* YJStoreDetailModel.m */,
+				9DC638F31F19E5E6007C16E4 /* TitleIconBtnModel.h */,
+				9DC638F41F19E5E6007C16E4 /* TitleIconBtnModel.m */,
+				9DC638F61F19E66E007C16E4 /* YJStoreModel.h */,
+				9DC638F71F19E66E007C16E4 /* YJStoreModel.m */,
+				9DC6390C1F19FF05007C16E4 /* YJStoreHomeModel.h */,
+				9DC6390D1F19FF05007C16E4 /* YJStoreHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -438,6 +525,18 @@
 				9DC638A31F18B3F4007C16E4 /* YJStoreDetailCell.h */,
 				9DC638A41F18B3F4007C16E4 /* YJStoreDetailCell.m */,
 				9DC638A51F18B3F4007C16E4 /* YJStoreDetailCell.xib */,
+				9DC638F91F19E73A007C16E4 /* YJStoreCell.h */,
+				9DC638FA1F19E73A007C16E4 /* YJStoreCell.m */,
+				9DC638FB1F19E73A007C16E4 /* YJStoreCell.xib */,
+				9DC638FE1F19E98A007C16E4 /* YJStoreMenuView.h */,
+				9DC638FF1F19E98A007C16E4 /* YJStoreMenuView.m */,
+				9DC639011F19EDD6007C16E4 /* YJTitleIcon.h */,
+				9DC639021F19EDD6007C16E4 /* YJTitleIcon.m */,
+				9DC639071F19FE01007C16E4 /* YJStoreHomeCell.h */,
+				9DC639081F19FE01007C16E4 /* YJStoreHomeCell.m */,
+				9DC639091F19FE01007C16E4 /* YJStoreHomeCell.xib */,
+				9DC6390F1F1A00F4007C16E4 /* YJCollectionHeaderView.h */,
+				9DC639101F1A00F4007C16E4 /* YJCollectionHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -519,6 +618,14 @@
 			children = (
 				9DC638C61F19034B007C16E4 /* YJVideoModel.h */,
 				9DC638C71F19034B007C16E4 /* YJVideoModel.m */,
+				9DC638D01F19BF97007C16E4 /* YJListTopModel.h */,
+				9DC638D11F19BF97007C16E4 /* YJListTopModel.m */,
+				9DC638DB1F19D2A8007C16E4 /* YJKnowledgeMoedel.h */,
+				9DC638DC1F19D2A8007C16E4 /* YJKnowledgeMoedel.m */,
+				9DC638E81F19D567007C16E4 /* YJMapModel.h */,
+				9DC638E91F19D567007C16E4 /* YJMapModel.m */,
+				9DC638EB1F19D6FA007C16E4 /* YJActivityModel.h */,
+				9DC638EC1F19D6FA007C16E4 /* YJActivityModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -529,6 +636,18 @@
 				9DC638C91F190437007C16E4 /* YJVideoCell.h */,
 				9DC638CA1F190437007C16E4 /* YJVideoCell.m */,
 				9DC638CC1F1904B0007C16E4 /* YJVideoCell.xib */,
+				9DC638D61F19C050007C16E4 /* YJListTopCell.h */,
+				9DC638D71F19C050007C16E4 /* YJListTopCell.m */,
+				9DC638D81F19C050007C16E4 /* YJListTopCell.xib */,
+				9DC638DE1F19D302007C16E4 /* YJKnowledgeCell.h */,
+				9DC638DF1F19D302007C16E4 /* YJKnowledgeCell.m */,
+				9DC638E01F19D302007C16E4 /* YJKnowledgeCell.xib */,
+				9DC638E31F19D54E007C16E4 /* YJMapCell.h */,
+				9DC638E41F19D54E007C16E4 /* YJMapCell.m */,
+				9DC638E51F19D54E007C16E4 /* YJMapCell.xib */,
+				9DC638EE1F19D781007C16E4 /* YJActivityCell.h */,
+				9DC638EF1F19D781007C16E4 /* YJActivityCell.m */,
+				9DC638F01F19D781007C16E4 /* YJActivityCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -616,7 +735,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC638CF1F19B05B007C16E4 /* Notices in Resources */,
 				9DC6384C1F185C92007C16E4 /* HomeShop.json in Resources */,
+				9DC638FD1F19E73A007C16E4 /* YJStoreCell.xib in Resources */,
 				9DC6384D1F185C92007C16E4 /* knowledge.json in Resources */,
 				9DC638661F185CAB007C16E4 /* FastForwardView.xib in Resources */,
 				9DC638491F185C92007C16E4 /* activity.json in Resources */,
@@ -625,17 +746,23 @@
 				9DC638481F185C92007C16E4 /* 1.png in Resources */,
 				9DC638681F185CAB007C16E4 /* WMPlayer.bundle in Resources */,
 				9DC638181F185881007C16E4 /* Assets.xcassets in Resources */,
+				9DC638E21F19D302007C16E4 /* YJKnowledgeCell.xib in Resources */,
 				9DC638501F185C92007C16E4 /* Store.json in Resources */,
 				9DC638521F185C92007C16E4 /* StoreHome.json in Resources */,
 				9DC638971F18757B007C16E4 /* YJHomeTableViewCell.xib in Resources */,
+				9DC638F21F19D781007C16E4 /* YJActivityCell.xib in Resources */,
 				9DC638531F185C92007C16E4 /* toplist.json in Resources */,
 				9DC6384F1F185C92007C16E4 /* shipin.json in Resources */,
 				9DC638A71F18B3F4007C16E4 /* YJStoreDetailCell.xib in Resources */,
 				9DC6384E1F185C92007C16E4 /* map.json in Resources */,
 				9DC638511F185C92007C16E4 /* store_detailcell.json in Resources */,
+				9DC638DA1F19C050007C16E4 /* YJListTopCell.xib in Resources */,
+				9DC6390B1F19FE01007C16E4 /* YJStoreHomeCell.xib in Resources */,
+				9DC639191F1A0C3C007C16E4 /* YJBasketGoodsCell.xib in Resources */,
 				9DC638CD1F1904B0007C16E4 /* YJVideoCell.xib in Resources */,
 				9DC6384A1F185C92007C16E4 /* Goods_detail.json in Resources */,
 				9DC6389C1F188DA9007C16E4 /* YJHomeCollectionCell.xib in Resources */,
+				9DC638E71F19D54E007C16E4 /* YJMapCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,12 +821,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC6390A1F19FE01007C16E4 /* YJStoreHomeCell.m in Sources */,
 				9DC638761F1861EF007C16E4 /* YJHomeViewController.m in Sources */,
 				9DC638B91F18F306007C16E4 /* YJVideoViewController.m in Sources */,
 				9DC638C51F18F34C007C16E4 /* YJActivityViewController.m in Sources */,
+				9DC639031F19EDD6007C16E4 /* YJTitleIcon.m in Sources */,
+				9DC639111F1A00F4007C16E4 /* YJCollectionHeaderView.m in Sources */,
+				9DC638EA1F19D567007C16E4 /* YJMapModel.m in Sources */,
+				9DC639061F19FC9D007C16E4 /* YJStoreHomeController.m in Sources */,
 				9DC638731F186125007C16E4 /* YJMainTabBarController.m in Sources */,
 				9DC638631F185CAB007C16E4 /* DCPicScrollView.m in Sources */,
 				9DC638951F1873A4007C16E4 /* YJHomeTableViewCell.m in Sources */,
+				9DC638F11F19D781007C16E4 /* YJActivityCell.m in Sources */,
 				9DC638BF1F18F32A007C16E4 /* YJKnowdgeViewController.m in Sources */,
 				9DC638651F185CAB007C16E4 /* FastForwardView.m in Sources */,
 				9DC638671F185CAB007C16E4 /* WMLightView.m in Sources */,
@@ -715,18 +848,31 @@
 				9DC638C81F19034B007C16E4 /* YJVideoModel.m in Sources */,
 				9DC638691F185CAB007C16E4 /* WMPlayer.m in Sources */,
 				9DC6389F1F18AE7A007C16E4 /* YJStoreDetailController.m in Sources */,
+				9DC638E61F19D54E007C16E4 /* YJMapCell.m in Sources */,
 				9DC638C21F18F33C007C16E4 /* YJMapViewController.m in Sources */,
+				9DC638ED1F19D6FA007C16E4 /* YJActivityModel.m in Sources */,
 				9DC6387C1F186212007C16E4 /* YJBasketViewController.m in Sources */,
+				9DC638E11F19D302007C16E4 /* YJKnowledgeCell.m in Sources */,
 				9DC638791F186203007C16E4 /* YJMeViewController.m in Sources */,
+				9DC638DD1F19D2A8007C16E4 /* YJKnowledgeMoedel.m in Sources */,
+				9DC638F51F19E5E6007C16E4 /* TitleIconBtnModel.m in Sources */,
 				9DC638881F186338007C16E4 /* YJTabBar.m in Sources */,
 				9DC638CB1F190437007C16E4 /* YJVideoCell.m in Sources */,
 				9DC638B61F18D3CC007C16E4 /* YJBuyView.m in Sources */,
+				9DC638D21F19BF97007C16E4 /* YJListTopModel.m in Sources */,
+				9DC639181F1A0C3C007C16E4 /* YJBasketGoodsCell.m in Sources */,
+				9DC638FC1F19E73A007C16E4 /* YJStoreCell.m in Sources */,
+				9DC6390E1F19FF05007C16E4 /* YJStoreHomeModel.m in Sources */,
+				9DC639141F1A0B5F007C16E4 /* YJBasketGoodsModel.m in Sources */,
 				9DC638921F18720E007C16E4 /* UIBarButtonItem+YJCategory.m in Sources */,
 				9DC638B31F18D022007C16E4 /* YJGoodsDetailViewController.m in Sources */,
 				9DC638701F186110007C16E4 /* YJMainNavigationController.m in Sources */,
+				9DC638F81F19E66E007C16E4 /* YJStoreModel.m in Sources */,
 				9DC6386C1F185CE0007C16E4 /* YJGuideViewController.m in Sources */,
 				9DC638BC1F18F31A007C16E4 /* YJListTopViewController.m in Sources */,
 				9DC6380D1F185881007C16E4 /* main.m in Sources */,
+				9DC638D91F19C050007C16E4 /* YJListTopCell.m in Sources */,
+				9DC639001F19E98A007C16E4 /* YJStoreMenuView.m in Sources */,
 				9DC638AA1F18B7FC007C16E4 /* YJSearchViewController.m in Sources */,
 				9DC6387F1F186221007C16E4 /* YJStoreViewController.m in Sources */,
 				9DC638B01F18CA9C007C16E4 /* YJToolBarButton.m in Sources */,

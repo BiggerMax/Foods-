@@ -12,6 +12,7 @@
 #import "YJToolBarButton.h"
 #import "YJGoodsDetailViewController.h"
 #import "YJBuyView.h"
+#import "YJStoreHomeController.h"
 @interface YJGoodsViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,YJBuyViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *picScrollViewArray;
@@ -227,7 +228,7 @@
 - (void)storeBtnClicked
 {
 	NSLog(@"-----------storeBtnClicked------");
-//	[self.navigationController pushViewController:[[StoreHomeController alloc] init] animated:YES];
+	[self.navigationController pushViewController:[[YJStoreHomeController alloc] init] animated:YES];
 }
 
 //收藏点击
@@ -380,7 +381,7 @@
 	if (contentOffY > 20) {
 		[self.navigationController.navigationBar setHidden:NO ];
 	}else{
-		[self.navigationController.navigationBar setHidden:YES];
+		[self.navigationController.navigationBar setHidden:NO];
 	}
 }
 

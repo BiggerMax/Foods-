@@ -24,5 +24,18 @@
 	
 	return [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
-
++ (UIBarButtonItem *)itemWithTarget:(id)target action:(SEL)action text:(NSString *)text textColor:(UIColor *)color
+{
+	UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+	[btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+	//设置图片
+	[btn setTitle:text forState:UIControlStateNormal];
+	//设置尺寸
+	//    btn.size = btn.currentBackgroundImage.size;
+	[btn setTitleColor:color forState:UIControlStateNormal];
+	btn.size = CGSizeMake(44, 44);
+	[btn.titleLabel setFont:[UIFont systemFontOfSize:13.0] ];
+	
+	return [[UIBarButtonItem alloc] initWithCustomView:btn];
+}
 @end

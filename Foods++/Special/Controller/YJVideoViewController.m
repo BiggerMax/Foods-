@@ -45,10 +45,7 @@
 {
 
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoDidFinished:) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
-	//注册播放完成通知
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(fullScreenBtnClick:) name:@"fullScreenBtnClickNotice" object:nil];
-	//关闭通知
-	//关闭通知
 	[[NSNotificationCenter defaultCenter] addObserver:self
 											 selector:@selector(closeTheVideo:)
 												 name:@"closeTheVideo"
@@ -146,5 +143,88 @@
 {
 	return [self.heights[@(indexPath.row)] doubleValue];
 }
+-(void)startPlayVideo:(UIButton *)sender
+{
+	_currentIndexPath = [NSIndexPath indexPathForRow:sender.tag inSection:0];
+	if ([UIDevice currentDevice].systemVersion.floatValue >= 8||[UIDevice currentDevice].systemVersion.floatValue<7) {
+		self.currentCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:_currentIndexPath.row inSection:0]];
+	}else{
+		self.currentCell = (YJVideoCell *)sender.superview.superview.superview;
+	}
+	YJVideoModel *model = [_videoModelArray objectAtIndex:sender.tag];
+	if (self.wmPlayer) {
+		[self releaseWMPlayer];
+		self.wmPlayer = [WMPlayer new];
+		self.wmPlayer.delegate = self;
+		self.wmPlayer.closeBtnStyle = CloseBtnStyleClose;
+		self.wmPlayer.URLString = model.article_video;
+		self.wmPlayer.titleLabel.text = model.article_title;
+	}else{
+		self.wmPlayer = [WMPlayer new];
+		self.wmPlayer.delegate = self;
+		self.wmPlayer.closeBtnStyle = CloseBtnStyleClose;
+		self.wmPlayer.URLString = model.article_video;
+		self.wmPlayer.titleLabel.text = model.article_title;
+	}
+	[self.currentCell addSubview:self.wmPlayer];
+	[self.currentCell bringSubviewToFront:self.wmPlayer];
+	[self.currentCell.playBtn.superview sendSubviewToBack:self.currentCell.playBtn];
+	[self.wmPlayer mas_makeConstraints:^(MASConstraintMaker *make) {
+		make.top.equalTo(self.currentCell).with.offset(0);
+		make.left.equalTo(self.currentCell).with.offset(0);
+		make.right.equalTo(self.currentCell).with.offset(0);
+		make.height.equalTo(@(self.currentCell.coverView.frame.size.height));
+	}];
+	[self.wmPlayer play];
 
+}
+#pragma mark --WMPlayerDelegate
+//点击关闭按钮代理方法
+-(void)wmplayer:(WMPlayer *)wmplayer clickedCloseButton:(UIButton *)closeBtn
+{
+	[self releaseWMPlayer];
+	
+}
+//点击全屏按钮代理方法
+-(void)wmplayer:(WMPlayer *)wmplayer clickedFullScreenButton:(UIButton *)fullScreenBtn
+{
+	//self.wmPlayer.transform = CGAffineTransformMakeRotation(M_PI / 2);
+}
+#pragma mark --播放通知
+- (void)videoDidFinished:(NSNotification *)notice
+{
+	YJVideoCell *currentcCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:self.currentIndexPath.row inSection:0]];
+	[currentcCell.playBtn.superview bringSubviewToFront:currentcCell.playBtn];
+	[self.wmPlayer removeFromSuperview];
+}
+- (void)fullScreenBtnClick:(NSNotification *)notice{
+	
+}
+-(void)closeTheVideo:(NSNotification *)obj
+{
+	YJVideoCell *currentCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:self.currentIndexPath.row inSection:0]];
+	[currentCell.playBtn.superview bringSubviewToFront:currentCell.playBtn];
+	[self releaseWMPlayer];
+}
+-(void)releaseWMPlayer
+{
+	[self.wmPlayer pause];
+	[self.wmPlayer removeFromSuperview];
+	[self.wmPlayer.playerLayer removeFromSuperlayer];
+	[self.wmPlayer.player replaceCurrentItemWithPlayerItem:nil];
+	self.wmPlayer.player = nil;
+	self.wmPlayer.currentItem = nil;
+	[self.wmPlayer.autoDismissTimer invalidate];
+	self.wmPlayer.autoDismissTimer = nil;
+	
+	self.wmPlayer.playOrPauseBtn = nil;
+	self.wmPlayer.playerLayer = nil;
+	self.wmPlayer = nil;
+}
+-(void)dealloc{
+	NSLog(@"%@ dealloc",[self class]);
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	
+	[self releaseWMPlayer];
+}
 @end
